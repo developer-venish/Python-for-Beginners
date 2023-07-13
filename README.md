@@ -27,6 +27,7 @@ The given code is a Python tutorial for beginners that demonstrates various conc
  Variable Assignment: The code assigns the string "Python is so easy" to the variable name. This allows you to store and manipulate strings using the variable name.
 
  Printing Variables: The name variable is printed using the print() function, which displays the string "Python is so easy" on the console.
+ 
 ---------------------------------------------------------------------------------------
 
 String Operations:
@@ -40,6 +41,7 @@ Using escape characters like \n, \t, \\ to represent special characters in a str
 Converting a string to uppercase or lowercase using the upper() and lower() methods.
 Replacing substrings in a string using the replace() method.
 Finding the index of a substring within a string using the find() method.
+
 ---------------------------------------------------------------------------------------
 
 List Operations:
@@ -50,6 +52,7 @@ Modifying elements of a list by assigning new values.
 Appending elements to a list using the append() method.
 Deleting elements from a list using the del statement.
 Creating a copy of a list by assigning it to another variable.
+
 ---------------------------------------------------------------------------------------
 
 Tuple Operations:
@@ -58,6 +61,7 @@ Creating a tuple using parentheses ().
 Accessing elements of a tuple using indexing.
 Concatenating tuples using the + operator.
 Sorting a tuple using the sorted() function.
+
 ---------------------------------------------------------------------------------------
 
 Dictionary Operations:
@@ -66,6 +70,7 @@ Creating a dictionary using curly braces {}.
 Accessing values in a dictionary using keys.
 Creating a dictionary with mixed data types.
 Accessing keys and values of a dictionary using the keys() and values() methods.
+
 ---------------------------------------------------------------------------------------
 
 Set Operations:
@@ -79,6 +84,7 @@ Checking if a set is a subset or superset of another set using the .issubset() a
 Conditional Statements:
 
 Using if-else statements to conditionally execute code based on a condition.
+
 ---------------------------------------------------------------------------------------
 
 Loops:
@@ -87,6 +93,7 @@ Using the for loop to iterate over a sequence of elements.
 Using the range() function to generate a sequence of numbers.
 Modifying elements in a list using a for loop and index access.
 Using the while loop to repeatedly execute code until a condition is met.
+
 ---------------------------------------------------------------------------------------
 
 Exception Handling:
@@ -108,6 +115,7 @@ Creating Objects:
 Creating an object named "RedCircle" of the class "Circle" with specific values for radius and color.
 Accessing the object's attributes using dot notation (e.g., RedCircle.radius, RedCircle.color).
 Modifying the object's attribute (RedCircle.radius = 1).
+
 ---------------------------------------------------------------------------------------
 
 Class Inheritance:
@@ -117,6 +125,7 @@ Defining a constructor method __init__ to initialize the attributes of the class
 Defining a method named assign_seating_capacity to assign a value to the seating_capacity attribute.
 Defining a method named display_properties to print the attributes of the object.
 Creating objects of the "Vehicle" class and modifying their attributes.
+
 ---------------------------------------------------------------------------------------
 
 File Handling:
@@ -180,6 +189,7 @@ Accessing User Information:
 
 Using a for loop to iterate over the "some_list" of users.
 Printing the full name and email address of each user using the get_full_name() and get_email() methods.
+
 ---------------------------------------------------------------------------------------
 
 Fruityvice API:
@@ -191,6 +201,7 @@ Retrieving Fruit Data from API:
 Sending a GET request to the Fruityvice API endpoint using the requests.get() method.
 Loading the response data as a JSON object using json.loads().
 Creating a pandas dataframe from the retrieved JSON data using pd.DataFrame().
+
 ---------------------------------------------------------------------------------------
 
 Data Manipulation:
@@ -198,6 +209,7 @@ Data Manipulation:
 Using the pd.json_normalize() function to flatten the nested JSON data into a tabular format, resulting in the "df2" dataframe.
 Filtering the "df2" dataframe to retrieve information about a specific fruit, in this case, "Cherry", using the loc method and the desired condition.
 Accessing specific columns and values in the filtered dataframe using cherry.iloc[0]['column_name'].
+
 ---------------------------------------------------------------------------------------
 
 Installing Required Packages:
