@@ -28,6 +28,7 @@ The given code is a Python tutorial for beginners that demonstrates various conc
 
  Printing Variables: The name variable is printed using the print() function, which displays the string "Python is so easy" on the console.
 ---------------------------------------------------------------------------------------
+
 String Operations:
 
 Accessing individual characters of a string using indexing.
@@ -40,6 +41,7 @@ Converting a string to uppercase or lowercase using the upper() and lower() meth
 Replacing substrings in a string using the replace() method.
 Finding the index of a substring within a string using the find() method.
 ---------------------------------------------------------------------------------------
+
 List Operations:
 
 Creating a list using square brackets [].
@@ -49,6 +51,7 @@ Appending elements to a list using the append() method.
 Deleting elements from a list using the del statement.
 Creating a copy of a list by assigning it to another variable.
 ---------------------------------------------------------------------------------------
+
 Tuple Operations:
 
 Creating a tuple using parentheses ().
@@ -56,6 +59,7 @@ Accessing elements of a tuple using indexing.
 Concatenating tuples using the + operator.
 Sorting a tuple using the sorted() function.
 ---------------------------------------------------------------------------------------
+
 Dictionary Operations:
 
 Creating a dictionary using curly braces {}.
@@ -63,6 +67,7 @@ Accessing values in a dictionary using keys.
 Creating a dictionary with mixed data types.
 Accessing keys and values of a dictionary using the keys() and values() methods.
 ---------------------------------------------------------------------------------------
+
 Set Operations:
 
 Creating a set using curly braces {} or the set() function.
@@ -75,6 +80,7 @@ Conditional Statements:
 
 Using if-else statements to conditionally execute code based on a condition.
 ---------------------------------------------------------------------------------------
+
 Loops:
 
 Using the for loop to iterate over a sequence of elements.
@@ -82,6 +88,7 @@ Using the range() function to generate a sequence of numbers.
 Modifying elements in a list using a for loop and index access.
 Using the while loop to repeatedly execute code until a condition is met.
 ---------------------------------------------------------------------------------------
+
 Exception Handling:
 
 Using try-except blocks to handle exceptions and handle potential errors in code.
@@ -102,6 +109,7 @@ Creating an object named "RedCircle" of the class "Circle" with specific values 
 Accessing the object's attributes using dot notation (e.g., RedCircle.radius, RedCircle.color).
 Modifying the object's attribute (RedCircle.radius = 1).
 ---------------------------------------------------------------------------------------
+
 Class Inheritance:
 
 Creating a class named "Vehicle" with attributes like "max_speed", "mileage", and "seating_capacity".
@@ -173,6 +181,7 @@ Accessing User Information:
 Using a for loop to iterate over the "some_list" of users.
 Printing the full name and email address of each user using the get_full_name() and get_email() methods.
 ---------------------------------------------------------------------------------------
+
 Fruityvice API:
 
 Importing the "requests" library for making HTTP requests.
@@ -183,12 +192,14 @@ Sending a GET request to the Fruityvice API endpoint using the requests.get() me
 Loading the response data as a JSON object using json.loads().
 Creating a pandas dataframe from the retrieved JSON data using pd.DataFrame().
 ---------------------------------------------------------------------------------------
+
 Data Manipulation:
 
 Using the pd.json_normalize() function to flatten the nested JSON data into a tabular format, resulting in the "df2" dataframe.
 Filtering the "df2" dataframe to retrieve information about a specific fruit, in this case, "Cherry", using the loc method and the desired condition.
 Accessing specific columns and values in the filtered dataframe using cherry.iloc[0]['column_name'].
 ---------------------------------------------------------------------------------------
+
 Installing Required Packages:
 
 Installing the "html5lib" library using !pip install html5lib command.
