@@ -36,13 +36,21 @@ The given code is a Python tutorial for beginners that demonstrates various conc
 String Operations:
 
 Accessing individual characters of a string using indexing.
+
 Using negative indexing to access characters from the end of the string.
+
 Using slicing to extract a substring from a string.
+
 Concatenating strings using the addition operator.
+
 Repeating a string multiple times using the multiplication operator.
+
 Using escape characters like \n, \t, \\ to represent special characters in a string.
+
 Converting a string to uppercase or lowercase using the upper() and lower() methods.
+
 Replacing substrings in a string using the replace() method.
+
 Finding the index of a substring within a string using the find() method.
 
 ---------------------------------------------------------------------------------------
