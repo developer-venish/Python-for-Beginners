@@ -85,7 +85,6 @@ Concatenating tuples using the + operator.
 Sorting a tuple using the sorted() function.
 
 
-
 ---------------------------------------------------------------------------------------
 
 Dictionary Operations:
@@ -99,11 +98,9 @@ Creating a dictionary with mixed data types.
 
 Accessing keys and values of a dictionary using the keys() and values() methods.
 
-
 ---------------------------------------------------------------------------------------
 
 Set Operations:
-
 
 Creating a set using curly braces {} or the set() function.
 
@@ -155,6 +152,8 @@ Defining a constructor method __init__ to initialize the attributes of the class
 
 Defining a method named add_radius to modify the radius attribute of the object.
 
+---------------------------------------------------------------------------------------
+
 Creating Objects:
 
 
@@ -167,7 +166,6 @@ Modifying the object's attribute (RedCircle.radius = 1).
 ---------------------------------------------------------------------------------------
 
 Class Inheritance:
-
 
 Creating a class named "Vehicle" with attributes like "max_speed", "mileage", and "seating_capacity".
 
@@ -206,13 +204,13 @@ Installing the "xlrd" library using !pip install xlrd command.
 
 Installing the "openpyxl" library using !pip install openpyxl command.
 
-Importing Required Libraries:
+---------------------------------------------------------------------------------------
 
+Importing Required Libraries:
 
 Importing the "pandas" library as "pd" for data manipulation.
 
 Reading Data from CSV File:
-
 
 Providing the URL of the CSV file to read using the pd.read_csv() function.
 
@@ -220,8 +218,9 @@ Storing the data in a dataframe named "df".
 
 Displaying the first five rows of the dataframe using df.head().
 
-Reading Data from Excel File:
+---------------------------------------------------------------------------------------
 
+Reading Data from Excel File:
 
 
 Providing the URL of the Excel file to read using the pd.read_excel() function.
@@ -229,6 +228,8 @@ Providing the URL of the Excel file to read using the pd.read_excel() function.
 Storing the data in a dataframe named "df".
 
 Displaying the first five rows of the dataframe using df.head().
+
+---------------------------------------------------------------------------------------
 
 Data Manipulation:
 
@@ -239,6 +240,8 @@ Accessing a single value in the dataframe using the df.iloc[row_index, column_in
 
 Creating a Python list and printing each element.
 
+---------------------------------------------------------------------------------------
+
 Numpy Library:
 
 Importing the "numpy" library as "np" for numerical computations.
@@ -248,6 +251,8 @@ Creating a numpy array using np.array().
 Checking the version of numpy using np.__version__.
 
 Checking the type of the numpy array using type().
+
+---------------------------------------------------------------------------------------
 
 Numpy Array Manipulation:
 
