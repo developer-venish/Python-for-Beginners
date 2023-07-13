@@ -321,6 +321,8 @@ Installing the "html5lib" library using !pip install html5lib command.
 
 Installing the "bs4" library (BeautifulSoup) using !pip install bs4 command.
 
+---------------------------------------------------------------------------------------
+
 Importing Required Modules:
 
 
@@ -328,17 +330,23 @@ Importing the "BeautifulSoup" class from the "bs4" module.
 
 Importing the "requests" module for making HTTP requests.
 
+---------------------------------------------------------------------------------------
+
 HTML Code:
 
 The HTML code represents a simple web page with player names and their salaries.
 
 It includes a title tag, heading tags (h3), and paragraph tags (p).
 
+---------------------------------------------------------------------------------------
+
 Creating BeautifulSoup Object:
 
 Creating a BeautifulSoup object called "soup" by passing the HTML code and the parser ("html5lib") as arguments.
 
 The "soup" object represents the parsed HTML code and allows for easy traversal and manipulation.
+
+---------------------------------------------------------------------------------------
 
 Printing the Prettified HTML:
 
