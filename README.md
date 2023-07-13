@@ -45,13 +45,13 @@ Concatenating strings using the addition operator.
 
 Repeating a string multiple times using the multiplication operator.
 
-Using escape characters like \n, \t, \\ to represent special characters in a string.
+Using escape characters like `\n, \t, \\` to represent special characters in a string.
 
-Converting a string to uppercase or lowercase using the upper() and lower() methods.
+Converting a string to uppercase or lowercase using the `upper()` and `lower()` methods.
 
-Replacing substrings in a string using the replace() method.
+Replacing substrings in a string using the `replace()` method.
 
-Finding the index of a substring within a string using the find() method.
+Finding the index of a substring within a string using the `find()` method.
 
 ---------------------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ Accessing elements of a list using indexing and slicing.
 
 Modifying elements of a list by assigning new values.
 
-Appending elements to a list using the append() method.
+Appending elements to a list using the `append()` method.
 
 Deleting elements from a list using the del statement.
 
@@ -82,7 +82,7 @@ Accessing elements of a tuple using indexing.
 
 Concatenating tuples using the + operator.
 
-Sorting a tuple using the sorted() function.
+Sorting a tuple using the `sorted()` function.
 
 
 ---------------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ Accessing values in a dictionary using keys.
 
 Creating a dictionary with mixed data types.
 
-Accessing keys and values of a dictionary using the keys() and values() methods.
+Accessing keys and values of a dictionary using the `keys()` and `values()` methods.
 
 ---------------------------------------------------------------------------------------
 
@@ -104,15 +104,15 @@ Set Operations:
 
 Creating a set using curly braces {} or the set() function.
 
-Adding elements to a set using the add() method.
+Adding elements to a set using the `add()` method.
 
-Removing elements from a set using the remove() method.
+Removing elements from a set using the `remove()` method.
 
 Checking if an element is in a set using the in operator.
 
 Performing set operations such as intersection, difference, and union using the &, .difference(), and .union() methods.
 
-Checking if a set is a subset or superset of another set using the .issubset() and .issuperset() methods.
+Checking if a set is a subset or superset of another set using the `.issubset()` and `.issuperset()` methods.
 
 Conditional Statements:
 
@@ -124,7 +124,7 @@ Loops:
 
 Using the for loop to iterate over a sequence of elements.
 
-Using the range() function to generate a sequence of numbers.
+Using the `range()` function to generate a sequence of numbers.
 
 Modifying elements in a list using a for loop and index access.
 
@@ -183,11 +183,11 @@ File Handling:
 
 Using the urllib.request module to download a file from a URL.
 
-Opening a file using the open() function with read or write mode.
+Opening a file using the `open()` function with read or write mode.
 
-Reading the contents of a file using the read() method.
+Reading the contents of a file using the `read()` method.
 
-Writing to a file using the write() method.
+Writing to a file using the `write()` method.
 
 Closing a file using the close() method.
 
@@ -212,18 +212,18 @@ Importing the "pandas" library as "pd" for data manipulation.
 
 Reading Data from CSV File:
 
-Providing the URL of the CSV file to read using the pd.read_csv() function.
+Providing the URL of the CSV file to read using the `pd.read_csv()` function.
 
 Storing the data in a dataframe named "df".
 
-Displaying the first five rows of the dataframe using df.head().
+Displaying the first five rows of the dataframe using `df.head()`.
 
 ---------------------------------------------------------------------------------------
 
 Reading Data from Excel File:
 
 
-Providing the URL of the Excel file to read using the pd.read_excel() function.
+Providing the URL of the Excel file to read using the `pd.read_excel()` function.
 
 Storing the data in a dataframe named "df".
 
@@ -234,9 +234,9 @@ Displaying the first five rows of the dataframe using df.head().
 Data Manipulation:
 
 
-Accessing a specific column in the dataframe using df[['Column_Name']].
+Accessing a specific column in the dataframe using `df[['Column_Name']]`.
 
-Accessing a single value in the dataframe using the df.iloc[row_index, column_index] method.
+Accessing a single value in the dataframe using the `df.iloc[row_index, column_index]` method.
 
 Creating a Python list and printing each element.
 
@@ -246,11 +246,11 @@ Numpy Library:
 
 Importing the "numpy" library as "np" for numerical computations.
 
-Creating a numpy array using np.array().
+Creating a numpy array using `np.array()`.
 
-Checking the version of numpy using np.__version__.
+Checking the version of numpy using `np.__version__`.
 
-Checking the type of the numpy array using type().
+Checking the type of the numpy array using `type()`.
 
 ---------------------------------------------------------------------------------------
 
@@ -265,7 +265,7 @@ Modifying elements of the numpy array by assigning new values.
 RandomUser API:
 
 
-Installing the "randomuser" library using !pip install randomuser command.
+Installing the "randomuser" library using `!pip install randomuser` command.
 
 Importing the "RandomUser" class from the "randomuser" module.
 
@@ -306,7 +306,7 @@ Creating a pandas dataframe from the retrieved JSON data using pd.DataFrame().
 Data Manipulation:
 
 
-Using the pd.json_normalize() function to flatten the nested JSON data into a tabular format, resulting in the "df2" dataframe.
+Using the `pd.json_normalize()` function to flatten the nested JSON data into a tabular format, resulting in the "df2" dataframe.
 
 Filtering the "df2" dataframe to retrieve information about a specific fruit, in this case, "Cherry", using the loc method and the desired condition.
 
