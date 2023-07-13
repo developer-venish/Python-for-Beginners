@@ -1,5 +1,6 @@
 # Python-for-Beginners
 Python Starter
+
 ---------------------------------------------------------------------------------------
 
 Note :- All the code in this project has been tested and run successfully in Google Colab. I encourage you to try running it in Colab for the best experience and to ensure smooth execution. Happy coding!
@@ -27,8 +28,10 @@ The given code is a Python tutorial for beginners that demonstrates various conc
  Variable Assignment: The code assigns the string "Python is so easy" to the variable name. This allows you to store and manipulate strings using the variable name.
 
  Printing Variables: The name variable is printed using the print() function, which displays the string "Python is so easy" on the console.
+
  
 ---------------------------------------------------------------------------------------
+
 
 String Operations:
 
